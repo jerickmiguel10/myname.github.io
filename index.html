@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conti's Cake Order form</title>
+		<link rel = "stylesheet" type = "text/css"  href = "contis.css">
+	</head>
+	<script src = "contis.js"></script>
+	<body>
+		
+<div class = "center">
+    <img class = "logo" src = "https://beautsantua.files.wordpress.com/2014/12/contis-logo.png?w=660"><br>
+    <img class = "chocolate-mousse" src = "https://www.manilacakeshop.com/images/detailed/7/cake-31.jpg">
+    <img class = "strawberry-short" src = "https://www.flowershop.ph/images/thumbnails/500/500/detailed/2/cake-43.jpg">
+    <img class = "choco-overload" src = "https://www.flowershop.ph/images/detailed/2/cake-30.jpg">
+    <img class = "mango-bravo" src = "https://s3-ap-southeast-1.amazonaws.com/giftgo/giftgoimages/mangobravo.jpg">
+    <img class = "salted-caramel" src = "https://www.manilacakeshop.com/images/detailed/7/cake-42.jpg"> 
+    <br><button class = "btncm" id = "btncm" onclick = "cm()">CHOCOLATE MOUSSE</button>
+    <button class = "btnss" onclick = "ss()">STRAWBERRY SHORTCAKE</button>
+    <button class = "btnco" onclick = "co()">CHOCO OVERLOAD</button>
+    <button class = "btnmb" onclick = "mb()">MANGO BRAVO</button>
+    <button class = "btnsc"onclick = "sc()">SALTED CARAMEL</button><br>
+    <img class = "cookies-cream" src = "https://www.philippinesflorist.com/images/thumbnails/465/465/detailed/4/cookies-cheesecake.jpg">
+    <img class = "sans-rival" src = "https://www.contis.ph/wp-content/uploads/2019/06/SansRival_2.jpg">
+    <img class = "blueberry-cheese" src = "https://www.contis.ph/wp-content/uploads/2019/06/Blueberry-Cheesecake.jpg">
+    <img class = "moist-chocolate" src = "https://www.philippinesflorist.com/images/detailed/4/moist-chocolate-cake.jpg">
+    <img class = "black-velvet" src = "https://www.flowershop.ph/images/detailed/2/cake-28_lo0s-9n.jpg"> 
+    <br><button class = "btncc" onclick = "cc()">COOKIES & CREAM CHEESECAKE</button>
+    <button class = "btnsr" onclick = "sr()">SANS RIVAL</button>
+    <button class = "btnbc" onclick = "bc()">BLUEBERRY CHEESECAKE</button>
+    <button class = "btnmc" onclick = "mc()">MOIST CHOCOLATE</button>
+    <button class = "btnbv" onclick = "bv()">BLACK VELVET</button><br>
+    <button class = "total"onclick = "total()">Total</button>
+</div>
+    
+<div>
+   <img class = "cake" id = "cake-1" src = "https://www.clker.com/cliparts/o/4/5/q/P/2/dark-green-question-mark-md.png">
+      <p> 
+        Chocolate Mousse: <label id = "cm" ></label><br>
+        <input type="hidden" id="ocm" value="0">
+        <input type="hidden" id="pcm" value="0">
+        <br>
+        Strawberry Shortcake: <label id = "ss" ></label><br>
+        <input type="hidden" id="oss" value="0">
+        <input type="hidden" id="pss" value="0">
+        <br>
+        Choco Overload: <label id = "co" ></label><br>
+        <input type="hidden" id="oco" value="0">
+        <input type="hidden" id="pco" value="0">
+        <br>
+        Mango Bravo: <label id = "mb" ></label><br>
+        <input type="hidden" id="omb" value="0">
+        <input type="hidden" id="pmb" value="0">
+        <br>
+        Salted Caramel: <label id = "sc" ></label><br>
+        <input type="hidden" id="osc" value="0">
+        <input type="hidden" id="psc" value="0">
+        <br>
+        Cookies & Cream Cheesecake: <label id = "cc" ></label><br>
+        <input type="hidden" id="occ" value="0">
+        <input type="hidden" id="pcc" value="0">
+        <br>
+        Sans Rival: <label id = "sr" ></label><br>
+        <input type="hidden" id="osr" value="0">
+        <input type="hidden" id="psr" value="0">
+        <br>
+        Blueberry Cheesecake: <label id = "bc" ></label></label><br>
+        <input type="hidden" id="obc" value="0">
+        <input type="hidden" id="pbc" value="0">
+        <br>
+        Moist Chocolate: <label id = "mc" ></label><br>
+        <input type="hidden" id="omc" value="0">
+         <input type="hidden" id="pmc" value="0">
+        <br>
+        Black Velvet: <label id = "bv" ></label><br>
+        <input type="hidden" id="obv" value="0">
+        <input type="hidden" id="pbv" value="0">
+        <br>
+        <b>Total: </b><label id = "t" > </label>
+      </p>
+  <button class = "blank" onclick="blank()">Clear</button>
+</div>
+		
+	</body>
+</html>

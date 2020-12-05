@@ -1,0 +1,156 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: skyblue;
+}
+
+div{
+  height: 100vh;
+  width: 25vw;
+  text-align: center;
+}
+
+p{
+  background-color: #e8e4c9;
+  text-align: left;
+  padding: 5px;
+  border: 5px solid forestgreen;
+  width: 280px;
+  margin-left: 13px;
+  margin-top:5px;
+}
+
+button{
+  border: 5px solid forestgreen;
+  padding:5px;
+  width: 150px;
+  background-color: #e8e4c9;
+  margin-top:5px;
+}
+
+.total{
+  font-weight: bolder;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.blank{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.center{
+  height: 100vh;
+  width: 75vw;
+  text-align: center;
+}
+
+.logo{
+  height: 120px;
+  width: 170px;
+  margin-left: 22vw;
+}
+
+.cake{
+  margin-top:10px;
+  height: 150px;
+  width: 180px;
+  padding: 5px;
+  background-color: white;
+  border: 5px solid forestgreen;
+}
+
+.cookies-cream{
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.chocolate-mousse{
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+}
+
+.black-velvet{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.choco-overload{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.mango-bravo{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.strawberry-short{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.salted-caramel{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.blueberry-cheese{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.sans-rival{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.moist-chocolate{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.btnbv{
+  margin-left: 20px;
+}
+
+.btnco{
+  margin-left: 20px;
+}
+
+.btnmb{
+  margin-left: 20px;
+}
+
+.btnss{
+  margin-left: 20px;
+}
+
+.btnsc{
+  margin-left: 20px;
+}
+
+.btnbc{
+  margin-left: 20px;
+}
+
+.btnsr{
+  margin-left: 20px;
+}
+
+.btnmc{
+  margin-left: 20px;
+}
